@@ -18,5 +18,5 @@ data/processed/medical_supplier_dirty_sample.xlsx
 *.log
 *.csv~
 
-data/raw/Medical-Equipment-Suppliers.csv
-data/processed/medical_suppliers_wrangled.csv
+#data/raw/Medical-Equipment-Suppliers.csv
+#data/processed/medical_suppliers_wrangled.csv
