@@ -1,4 +1,4 @@
-# Data Management Project (Excel + Python)
+# Data Management & Maintenance: A Practical Workflow (Excel + Python)
 
 This project demonstrates a structured approach to cleaning, wrangling, and analyzing large-scale medical supplier data using a hybrid workflow of **Excel** and **Python**. It reflects real-world tasks in data quality management, data maintenance, Visualisation and reporting. I focused on precision, reproducibility, and clarity in handling structured datasets.
 
