@@ -1,8 +1,6 @@
-
 # Data Management Project (Excel + Python)
 
-This project demonstrates a structured approach to cleaning, wrangling, and analyzing large-scale medical supplier data using a hybrid workflow of **Excel** and **Python**. It reflects real-world tasks in data quality management, master data maintenance, and reporting — with a focus on precision, reproducibility, and clarity in handling structured datasets.
-
+This project demonstrates a structured approach to cleaning, wrangling, and analyzing large-scale medical supplier data using a hybrid workflow of **Excel** and **Python**. It reflects real-world tasks in data quality management, data maintenance, Visualisation and reporting. I focused on precision, reproducibility, and clarity in handling structured datasets.
 
 ---
 
@@ -10,7 +8,7 @@ This project demonstrates a structured approach to cleaning, wrangling, and anal
 
 - **Dataset**: Medical Equipment Supplier dataset with 63,000+ rows and 17 columns
 - **Goal**: Simulate realistic tasks of a medical data administrator:
-  - Master data cleaning & standardization
+  - Data cleaning & standardization
   - Structured data wrangling & enrichment
   - Cleaning and Reporting the Sample date with Excel formulas
   - Visualization for stakeholder insight
@@ -90,7 +88,10 @@ medical-supplier-data-management-excel-python
   - Simulated price spread (boxplot)
   - Top 10 medical specialties (bar chart with vertical labels)
 
+**Medical Equipments Providers by Region**
 ![Medical Equipments Providers by Region](plots/number_of_providers_region.png)
+
+**Top 10 Types of Supplies**
 ![Top 10 Supplies](plots/top_10_supplies.png)
 
 ---
@@ -119,8 +120,10 @@ MSc Computer Science (Data Science), TU Graz
 
 ---
 
-## Aiming for Jobs such as:
-- Office employee
-- Data maintenance 
-- Data steward / data quality analyst
-- Excel-based analyst roles with structured processes
+## Aiming for Jobs such as: 
+
+- Data maintenance specialist
+- Office data administrator
+- Data steward
+- Data quality analyst
+- Excel-based data analyst 
