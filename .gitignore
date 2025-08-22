@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+
+# Jupyter checkpoint files
+.ipynb_checkpoints/
+
+# Temporary files and OS files
+.DS_Store
+*.tmp
+
+# Unused or draft notebooks
+notebooks/create_sample_dataset_raw.ipynb
+
+# Intermediate Excel sample (dirty, not used)
+data/processed/medical_supplier_dirty_sample.xlsx
+
+# Potential exports/logs
+*.log
+*.csv~
+
+data/raw/Medical-Equipment-Suppliers.csv
+data/processed/medical_suppliers_wrangled.csv
