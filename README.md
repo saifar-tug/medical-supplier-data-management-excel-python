@@ -12,12 +12,12 @@ This project demonstrates a structured approach to cleaning, wrangling, and anal
 - **Goal**: Simulate realistic tasks of a medical data administrator:
   - Master data cleaning & standardization
   - Structured data wrangling & enrichment
-  - Reporting with Excel formulas
+  - Cleaning and Reporting the Sample date with Excel formulas
   - Visualization for stakeholder insight
 - **Tools Used**:
   - Excel (manual cleaning, formulas, conditional logic)
   - Python (pandas, matplotlib)
-  - Jupyter Notebooks (step-by-step logic and commentary)
+  - Jupyter Notebooks
 
 ---
 
@@ -26,21 +26,21 @@ This project demonstrates a structured approach to cleaning, wrangling, and anal
 ```bash
 medical-supplier-data-management-excel-python
 ├── data/
-│   ├── raw/                            # Original dataset
+│   ├── raw/                            #original dataset
 │   │   └── Medical-Equipment-Suppliers.csv
-│   └── processed/                     # Sampled and wrangled versions
+│   └── processed/                     #processed datasets
 │       ├── medical_supplier_enhanced.xlsx
 │       ├── medical_supplier_sample_preprocessed.xlsx
 │       └── medical_suppliers_wrangled.csv
 │
 ├── notebooks/
-│   ├── prepare_dataset.ipynb          # Python sampling + corruption
-│   ├── data_preprocessing_showcase.ipynb  # Full cleaning walkthrough
-│   ├── data_wrangling_showcase.ipynb      # Derived columns, categorization
-│   └── data_visualization_showcase.ipynb  # Clean, business-friendly visuals
+│   ├── prepare_dataset.ipynb          #for creating the sample dataset with corruption
+│   ├── data_preprocessing_showcase.ipynb  #full dataset cleaning walkthrough
+│   ├── data_wrangling_showcase.ipynb      #data wrangilg, derived columns, categorization etc
+│   └── data_visualization_showcase.ipynb  #clean, business-friendly plots
 │
-├── formula_summary.md                 # All Excel formulas used (Austrian Excel)
-└── README.md                          # This file
+├── formula_summary.md                 #Excel formulas used (Austrian Excel)
+└── README.md                          
 ```
 
 ---
@@ -90,6 +90,9 @@ medical-supplier-data-management-excel-python
   - Simulated price spread (boxplot)
   - Top 10 medical specialties (bar chart with vertical labels)
 
+![Medical Equipments Providers by Region](plots/number_of_providers_region.png)
+![Top 10 Supplies](plots/top_10_supplies.png)
+
 ---
 
 ## Project Demonstrates: 
@@ -116,7 +119,8 @@ MSc Computer Science (Data Science), TU Graz
 
 ---
 
-## Relevant to Jobs such as:
-- Office employee, data maintenance 
+## Aiming for Jobs such as:
+- Office employee
+- Data maintenance 
 - Data steward / data quality analyst
 - Excel-based analyst roles with structured processes
